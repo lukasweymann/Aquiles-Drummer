@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0.3% 8%;
+  background-color: #010101;
+  font-family: "Open Sans", sans-serif;
+}
+span {
+  font-weight: 300;
+}
+h1 {
+  width: 50%;
+  margin: 10px;
+  margin-bottom: 2.9%;
+  margin-left: 0;
+  font-size: 8.7vw;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.logo,
+h2,
+h3,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  font-weight: 300;
+  letter-spacing: 8px;
+  margin-bottom: 3%;
+  
+}
+p {
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+.main-section__landingpage {
+  padding: 3% 8%;
+  padding-bottom: 1.1%;
+  color: white;
+  height: auto;
+  min-height: 85vh;
+  width: 85vw;
+  min-width: 100vh;
+  background-color: #010101;
+}
+.container-landingpage {
+  display: flex;
+  justify-content: space-between;
+  min-width: 835px;
+  max-width: 1160px;
+  height: 90%
+}
+img {
+  width: 107%;
+}
+.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a {
+  margin:  10px 20px;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #9b145c82;
+}
+button {
+  font-family: "Open Sans", sans-serif;
+  background-color: hsla(328, 22%, 55%, 0.201);
+  color: white;
+  padding: 10px 20px;
+  border: solid 1px hsla(328, 39%, 45%, 0.098);
+  border-radius: 20px;
+  margin: 0 10px;
+}
+button:hover {
+  background-color: hsl(328, 22%, 55%);
+}
+.leftblock {
+  width: 57%;
+}
+.rightblock {
+  width: 43%;
+}
+@media only screen and (max-width: 835px) {
+  .container-landingpage {
+    flex-direction: column;
+    width: 90%;
+  }
+  h1{
+    font-size: 70px;
+  }
+  .leftblock {
+    width: 100%;
+  }
+  p{
+    width: 80%;
+  }
+}
+
+/* ABOUT PAGE STYLING */
+
+.about-page__main {
+  display: flex;
+}
+.about-page__heading {
+  font-size: 4.6em;
+}
+.about-page-container {
+  padding-top: 40px;
+  background-color: #010101;
+  margin: 0;
+  color: white;
+  height: 80vh;
+}
+h6 {
+  font-weight: 100;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+}
+.copyright{
+ 
+  margin-top: 7%;
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  width: 40%;
+}
+.contact-me__button{
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-left: -4px;
+  margin-top: 20px;
+}
+.take-classes__button{
+  background-color: #010101;
+  color: white;
+  border: 1px solid white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-left: -4px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.fab{
+  font-size: 2em;
+  margin-right: 20px;
+}
+.social-media__icons{
+ display: flex;
+  width: 40%;
+  align-items: flex-end;
+  margin-top: 5%;
+}
+footer{
+  margin-bottom: 20px;
+  display: flex;
+}
